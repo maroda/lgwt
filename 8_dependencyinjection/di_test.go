@@ -12,8 +12,9 @@ func TestGreet(t *testing.T) {
 
 	// Pass it as a reference to Greet, along with the string "Chris"
 	Greet(&buffer, "Chris")
-
+	// what we want to check is in the String method of the buffer type
 	got := buffer.String()
+	// and what we want from that String method is:
 	want := "Hello, Chris"
 
 	if got != want {
