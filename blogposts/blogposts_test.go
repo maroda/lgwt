@@ -7,7 +7,7 @@ import (
 	"testing"
 	"testing/fstest"
 
-	blogposts "github.com/maroda/lgwt/blogposts"
+	blogposts "github.com/maroda/blogposts"
 )
 
 /*
