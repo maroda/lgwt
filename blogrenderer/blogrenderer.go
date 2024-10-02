@@ -11,11 +11,13 @@ type Post struct {
 	Tags                     []string
 }
 
+/*
 const (
 	// This template should match 'want'
 	postTemplate = `<h2>{{.Title}}</h1><p>{{.Description}}</p>Tags: <ul>{{range .Tags}}<li>{{.}}</li>{{end}}</ul>`
-)
+)*/
 
+// The comment above postsT is a required go:embed command
 var (
 	//go:embed templates/*
 	postsT embed.FS
